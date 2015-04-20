@@ -24,18 +24,163 @@
         <processorPath useClasspath="true" />
         <module name="tinkerforge-addons" />
       </profile>
-      <profile default="false" name="Annotation profile for examples" enabled="true">
+      <profile default="false" name="Annotation profile for tinkerforge-01_helloworld" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="examples" />
+        <module name="tinkerforge-01_helloworld" />
+      </profile>
+      <profile default="false" name="Annotation profile for tinkerforge-03_barometer" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tinkerforge-03_barometer" />
+      </profile>
+      <profile default="false" name="Annotation profile for javafx-testfx-01_helloworld" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="javafx-testfx-01_helloworld" />
+      </profile>
+      <profile default="false" name="Annotation profile for persistence-03_orientdb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="persistence-03_orientdb" />
+      </profile>
+      <profile default="false" name="Annotation profile for tinkerforge-08_weatherFX" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tinkerforge-08_weatherFX" />
+      </profile>
+      <profile default="false" name="Annotation profile for tinkerforge-04_ptc" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tinkerforge-04_ptc" />
+      </profile>
+      <profile default="false" name="Annotation profile for communication-02_rest" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="communication-02_rest" />
+      </profile>
+      <profile default="false" name="Annotation profile for tinkerforge-03_dualbutton" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tinkerforge-03_dualbutton" />
+      </profile>
+      <profile default="false" name="Annotation profile for tinkerforge-10_timemachine" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tinkerforge-10_timemachine" />
+      </profile>
+      <profile default="false" name="Annotation profile for javafx-01_jumpstart" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="javafx-01_jumpstart" />
+      </profile>
+      <profile default="false" name="Annotation profile for persistence-01_flatfile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="persistence-01_flatfile" />
+      </profile>
+      <profile default="false" name="Annotation profile for tinkerforge-09_2048fxDual" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tinkerforge-09_2048fxDual" />
+      </profile>
+      <profile default="false" name="Annotation profile for tinkerforge-07_weather20x4" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tinkerforge-07_weather20x4" />
+      </profile>
+      <profile default="false" name="Annotation profile for tinkerforge-08_weatherLCD" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tinkerforge-08_weatherLCD" />
+      </profile>
+      <profile default="false" name="Annotation profile for tinkerforge-11_homesave" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tinkerforge-11_homesave" />
+      </profile>
+      <profile default="false" name="Annotation profile for persistence-02_mapdb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="persistence-02_mapdb" />
+      </profile>
+      <profile default="false" name="Annotation profile for tinkerforge-05_livehackingset" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tinkerforge-05_livehackingset" />
+      </profile>
+      <profile default="false" name="Annotation profile for tinkerforge-02_temperature" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tinkerforge-02_temperature" />
+      </profile>
+      <profile default="false" name="Annotation profile for tinkerforge-06_twitter" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tinkerforge-06_twitter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="communication-02_rest" target="1.8" />
       <module name="examples" target="1.8" />
+      <module name="javafx-01_jumpstart" target="1.8" />
+      <module name="javafx-testfx-01_helloworld" target="1.8" />
       <module name="modules" target="1.8" />
+      <module name="persistence-01_flatfile" target="1.8" />
+      <module name="persistence-02_mapdb" target="1.8" />
+      <module name="persistence-03_orientdb" target="1.8" />
       <module name="rapidpm-iot-tinkerforge" target="1.8" />
+      <module name="tinkerforge-01_helloworld" target="1.8" />
+      <module name="tinkerforge-02_temperature" target="1.8" />
+      <module name="tinkerforge-03_barometer" target="1.8" />
+      <module name="tinkerforge-03_dualbutton" target="1.8" />
+      <module name="tinkerforge-04_ptc" target="1.8" />
+      <module name="tinkerforge-05_livehackingset" target="1.8" />
+      <module name="tinkerforge-06_twitter" target="1.8" />
+      <module name="tinkerforge-07_weather20x4" target="1.8" />
+      <module name="tinkerforge-08_weatherFX" target="1.8" />
+      <module name="tinkerforge-08_weatherLCD" target="1.8" />
+      <module name="tinkerforge-09_2048fxDual" target="1.8" />
+      <module name="tinkerforge-10_timemachine" target="1.8" />
+      <module name="tinkerforge-11_homesave" target="1.8" />
       <module name="tinkerforge-addons" target="1.8" />
     </bytecodeTargetLevel>
   </component>

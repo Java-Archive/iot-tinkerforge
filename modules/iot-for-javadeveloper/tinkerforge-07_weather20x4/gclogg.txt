@@ -1,0 +1,62 @@
+Java HotSpot(TM) 64-Bit Server VM (25.25-b02) for windows-amd64 JRE (1.8.0_25-b18), built on Oct  7 2014 14:25:37 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 16681672k(8182680k free), swap 33458888k(21921688k free)
+CommandLine flags: -XX:InitialHeapSize=5242880 -XX:MaxHeapSize=5242880 -XX:+PrintGC -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCCause -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintTenuringDistribution -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+2015-01-06T01:44:31.339+0100: 0.117: [GC (Allocation Failure) 
+Desired survivor size 524288 bytes, new threshold 7 (max 15)
+[PSYoungGen: 1000K->491K(1536K)] 1000K->771K(5632K), 0.0016208 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2015-01-06T01:44:31.341+0100: 0.119: Total time for which application threads were stopped: 0.0017969 seconds
+2015-01-06T01:44:31.365+0100: 0.142: [GC (Allocation Failure) 
+Desired survivor size 524288 bytes, new threshold 7 (max 15)
+[PSYoungGen: 1515K->501K(1536K)] 1795K->842K(5632K), 0.0006604 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2015-01-06T01:44:31.365+0100: 0.143: Total time for which application threads were stopped: 0.0008104 seconds
+2015-01-06T01:44:31.517+0100: 0.295: [GC (Allocation Failure) 
+Desired survivor size 524288 bytes, new threshold 7 (max 15)
+[PSYoungGen: 1525K->501K(1536K)] 1866K->1060K(5632K), 0.0014404 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2015-01-06T01:44:31.519+0100: 0.296: Total time for which application threads were stopped: 0.0016192 seconds
+2015-01-06T01:44:32.519+0100: 1.297: Total time for which application threads were stopped: 0.0000580 seconds
+2015-01-06T01:44:34.721+0100: 3.499: [GC (Allocation Failure) 
+Desired survivor size 524288 bytes, new threshold 7 (max 15)
+[PSYoungGen: 1525K->501K(1536K)] 2084K->1327K(5632K), 0.0011471 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2015-01-06T01:44:34.722+0100: 3.500: Total time for which application threads were stopped: 0.0013390 seconds
+2015-01-06T01:44:35.331+0100: 4.108: Total time for which application threads were stopped: 0.0000789 seconds
+2015-01-06T01:44:42.334+0100: 11.112: Total time for which application threads were stopped: 0.0000525 seconds
+2015-01-06T01:44:49.337+0100: 18.115: Total time for which application threads were stopped: 0.0000564 seconds
+2015-01-06T01:44:58.340+0100: 27.118: Total time for which application threads were stopped: 0.0001378 seconds
+2015-01-06T01:44:59.341+0100: 28.118: Total time for which application threads were stopped: 0.0000647 seconds
+2015-01-06T01:45:07.345+0100: 36.123: Total time for which application threads were stopped: 0.0000608 seconds
+2015-01-06T01:45:13.795+0100: 42.573: [GC (Allocation Failure) 
+Desired survivor size 524288 bytes, new threshold 6 (max 15)
+[PSYoungGen: 1525K->485K(1536K)] 2351K->1455K(5632K), 0.0009028 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2015-01-06T01:45:13.796+0100: 42.574: Total time for which application threads were stopped: 0.0010480 seconds
+2015-01-06T01:45:24.800+0100: 53.578: Total time for which application threads were stopped: 0.0000616 seconds
+2015-01-06T01:45:34.805+0100: 63.583: Total time for which application threads were stopped: 0.0000592 seconds
+2015-01-06T01:45:55.816+0100: 84.594: Total time for which application threads were stopped: 0.0000703 seconds
+2015-01-06T01:45:56.817+0100: 85.594: Total time for which application threads were stopped: 0.0000647 seconds
+2015-01-06T01:46:02.821+0100: 91.598: Total time for which application threads were stopped: 0.0000620 seconds
+2015-01-06T01:46:06.823+0100: 95.600: Total time for which application threads were stopped: 0.0000951 seconds
+2015-01-06T01:46:14.866+0100: 103.643: [GC (Allocation Failure) 
+Desired survivor size 524288 bytes, new threshold 5 (max 15)
+[PSYoungGen: 1509K->485K(1536K)] 2479K->1487K(5632K), 0.0008226 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2015-01-06T01:46:14.866+0100: 103.644: Total time for which application threads were stopped: 0.0009837 seconds
+2015-01-06T01:46:39.880+0100: 128.658: Total time for which application threads were stopped: 0.0001204 seconds
+2015-01-06T01:46:42.882+0100: 131.659: Total time for which application threads were stopped: 0.0000967 seconds
+2015-01-06T01:47:12.048+0100: 160.826: [GC (Allocation Failure) 
+Desired survivor size 524288 bytes, new threshold 4 (max 15)
+[PSYoungGen: 1509K->368K(1536K)] 2511K->1627K(5632K), 0.0008633 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2015-01-06T01:47:12.049+0100: 160.827: Total time for which application threads were stopped: 0.0010307 seconds
+2015-01-06T01:47:32.061+0100: 180.839: Total time for which application threads were stopped: 0.0000647 seconds
+2015-01-06T01:47:39.064+0100: 187.842: Total time for which application threads were stopped: 0.0000572 seconds
+2015-01-06T01:48:14.688+0100: 223.467: [GC (Allocation Failure) 
+Desired survivor size 524288 bytes, new threshold 3 (max 15)
+[PSYoungGen: 1392K->256K(1536K)] 2651K->1687K(5632K), 0.0007271 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2015-01-06T01:48:14.689+0100: 223.467: Total time for which application threads were stopped: 0.0008866 seconds
+2015-01-06T01:48:24.694+0100: 233.471: Total time for which application threads were stopped: 0.0000797 seconds
+Heap
+ PSYoungGen      total 1536K, used 478K [0x00000000ffe00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 1024K, 21% used [0x00000000ffe00000,0x00000000ffe37b50,0x00000000fff00000)
+  from space 512K, 50% used [0x00000000fff80000,0x00000000fffc0000,0x0000000100000000)
+  to   space 512K, 0% used [0x00000000fff00000,0x00000000fff00000,0x00000000fff80000)
+ ParOldGen       total 4096K, used 1431K [0x00000000ffa00000, 0x00000000ffe00000, 0x00000000ffe00000)
+  object space 4096K, 34% used [0x00000000ffa00000,0x00000000ffb65e50,0x00000000ffe00000)
+ Metaspace       used 4525K, capacity 4922K, committed 5248K, reserved 1056768K
+  class space    used 505K, capacity 547K, committed 640K, reserved 1048576K

@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>tinkerforge-addons</module>
-        <module>examples</module>
+        <module>iot-for-javadeveloper</module>
     </modules>
 
 

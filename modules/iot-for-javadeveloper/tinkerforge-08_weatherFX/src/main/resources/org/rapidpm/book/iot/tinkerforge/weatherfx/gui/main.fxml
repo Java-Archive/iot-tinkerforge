@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import eu.hansolo.enzo.clock.Clock?>
+<?import eu.hansolo.enzo.gauge.RadialBargraph?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.rapidpm.book.iot.tinkerforge.weatherfx.gui.MainController">
+    <children>
+        <VBox>
+            <children>
+                <VBox>
+                    <children>
+                        <HBox>
+                            <children>
+                                <Label text="Host" BorderPane.alignment="CENTER"/>
+                                <TextField fx:id="tHost"/>
+                                <Button text="Connect" fx:id="bConnect" onAction="#onAction"/>
+                            </children>
+                        </HBox>
+                        <HBox>
+                            <RadialBargraph fx:id="temperatureRB" title="Temperatur" unit="°C"
+                                            maxValue="35" minValue="-20"/>
+                            <RadialBargraph fx:id="ambientLightRB" title="Helligkeit" unit="lux"
+                                            maxValue="1000" minValue="0" />
+                            <RadialBargraph fx:id="barometerRB" title="Luftdruck" unit="mbar"
+                                            maxValue="1000" minValue="0"/>
+                            <RadialBargraph fx:id="humidityRB" title="Luftfeuchtigkeit" unit="rH"
+                                            maxValue="100" minValue="0"/>
+                            <Clock fx:id="clock" design="IOS6" text="Weatherstation" running="true"/>
+                        </HBox>
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/communication-02_rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/javafx-01_jumpstart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/javafx-testfx-01_helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/persistence-01_flatfile" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/persistence-02_mapdb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/persistence-03_orientdb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/tinkerforge-01_helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/tinkerforge-02_temperature" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/tinkerforge-03_barometer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/tinkerforge-03_dualbutton" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/tinkerforge-04_ptc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/tinkerforge-05_livehackingset" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/tinkerforge-06_twitter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/tinkerforge-07_weather20x4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/tinkerforge-08_weatherFX" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/tinkerforge-08_weatherLCD" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/tinkerforge-09_2048fxDual" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/tinkerforge-10_timemachine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/iot-for-javadeveloper/tinkerforge-11_homesave" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/tinkerforge-addons" charset="UTF-8" />
+  </component>
+</project>

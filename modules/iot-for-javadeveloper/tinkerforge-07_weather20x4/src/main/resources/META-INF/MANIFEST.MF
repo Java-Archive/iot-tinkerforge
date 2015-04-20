@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: org.rapidpm.book.iot.tinkerforge.weather20x4.WeatherStatio
+ nPrintOnly
+

@@ -1,0 +1,7 @@
+<root>
+  <item name='java.io.PrintStream void println(java.lang.String)'>
+    <annotation name='org.jetbrains.annotations.Contract'>
+      <val val="&quot;null -&gt; fail&quot;"/>
+    </annotation>
+  </item>
+</root>
