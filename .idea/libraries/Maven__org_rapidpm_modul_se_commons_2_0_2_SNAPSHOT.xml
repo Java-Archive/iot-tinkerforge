@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.rapidpm.modul:se-commons:2.0.2-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/rapidpm/modul/se-commons/2.0.2-SNAPSHOT/se-commons-2.0.2-20150419.191620-8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/rapidpm/modul/se-commons/2.0.2-SNAPSHOT/se-commons-2.0.2-20150428.082919-13.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/rapidpm/modul/se-commons/2.0.2-SNAPSHOT/se-commons-2.0.2-20150419.191620-8-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/rapidpm/modul/se-commons/2.0.2-SNAPSHOT/se-commons-2.0.2-20150428.082919-13-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/rapidpm/modul/se-commons/2.0.2-SNAPSHOT/se-commons-2.0.2-20150419.191620-8-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/rapidpm/modul/se-commons/2.0.2-SNAPSHOT/se-commons-2.0.2-20150428.082919-13-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
