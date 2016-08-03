@@ -8,7 +8,6 @@ import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
-import org.rapidpm.commons.javafx.chart.DateAxis;
 
 import java.io.IOException;
 import java.text.DecimalFormat;
@@ -48,7 +47,7 @@ public class PTCDemo extends Application {
         System.out.println("celcius = " + celcius);
 
         try {
-          writeTo7Segment(celcius);
+          if (celcius >= -10) writeTo7Segment(celcius);
           peepIfColdEnough(celcius);
         } catch (TimeoutException
             | NotConnectedException e) {
@@ -112,8 +111,9 @@ public class PTCDemo extends Application {
     series = new XYChart.Series();
     series.setName("My temps");
     lineChart.getData().add(series);
-    Scene scene = new Scene(lineChart, 800, 600);
+    Scene scene = new Scene(lineChart, 800, 400);
     stage.setScene(scene);
+    stage.setFullScreen(false);
     stage.show();
   }
 }

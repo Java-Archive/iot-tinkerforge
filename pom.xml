@@ -25,7 +25,7 @@
             <groupId>org.eclipse.paho</groupId>
             <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
             <type>jar</type>
-            <version>1.0.1</version>
+            <version>1.1.0</version>
         </dependency>
 
         <!--Twitter-->

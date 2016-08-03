@@ -65,12 +65,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--<dependency>-->
-            <!--<groupId>org.rapidpm.modul</groupId>-->
-            <!--<artifactId>iot-tinkerforge</artifactId>-->
-            <!--<version>2.0.2-SNAPSHOT</version>-->
-            <!--<scope>compile</scope>-->
-            <!--</dependency>-->
             <dependency>
                 <groupId>org.jetbrains</groupId>
                 <artifactId>annotations</artifactId>
@@ -92,12 +86,6 @@
                 <artifactId>guava</artifactId>
                 <version>18.0</version>
             </dependency>
-            <!--<dependency>-->
-            <!--<groupId>org.loadui</groupId>-->
-            <!--<artifactId>testFx</artifactId>-->
-            <!--<version>3.1.2</version>-->
-            <!--</dependency>-->
-
             <dependency>
                 <groupId>org.mapdb</groupId>
                 <artifactId>mapdb</artifactId>
@@ -151,19 +139,6 @@
             <!--Flickr-->
 
 
-            <!--RapidPM-->
-            <dependency>
-                <groupId>org.rapidpm.modul</groupId>
-                <artifactId>se-commons</artifactId>
-                <version>2.0.2-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>org.rapidpm.modul</groupId>
-                <artifactId>javafx-commons</artifactId>
-                <version>2.0.2-SNAPSHOT</version>
-            </dependency>
-            <!--RapidPM-->
-
             <!--JavaFX Stuff-->
             <dependency>
                 <groupId>eu.hansolo.enzo</groupId>
@@ -190,12 +165,6 @@
     </dependencyManagement>
 
     <dependencies>
-
-        <dependency>
-            <groupId>org.rapidpm.modul</groupId>
-            <artifactId>se-commons</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
@@ -281,20 +250,20 @@
         </plugins>
     </build>
 
-    <!--for development of features/develop branch-->
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>RapidPM Releases</name>
-            <url>http://${nexus.ip}/nexus/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>RapidPM Snapshots</name>
-            <url>http://${nexus.ip}/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
-
+  <repositories>
+    <repository>
+      <id>paho releases</id>
+      <name>Eclipse Paho Releases</name>
+      <url>https://repo.eclipse.org/content/repositories/paho-releases/</url>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
 
     <inceptionYear>2013</inceptionYear>
     <organization>

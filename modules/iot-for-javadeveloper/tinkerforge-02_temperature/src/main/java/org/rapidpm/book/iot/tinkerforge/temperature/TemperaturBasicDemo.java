@@ -3,7 +3,6 @@ package org.rapidpm.book.iot.tinkerforge.temperature;
 import com.tinkerforge.BrickletTemperature;
 import com.tinkerforge.IPConnection;
 import com.tinkerforge.NotConnectedException;
-import org.rapidpm.module.se.commons.WaitForQ;
 
 import static java.lang.System.exit;
 import static java.lang.System.out;

@@ -2,7 +2,6 @@ package org.rapidpm.book.iot.tinkerforge.homesave.weather;
 
 import com.tinkerforge.*;
 import org.mapdb.*;
-import org.rapidpm.module.se.commons.WaitForQ;
 
 import java.io.*;
 import java.time.LocalDateTime;

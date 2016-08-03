@@ -4,13 +4,11 @@ import com.tinkerforge.BrickletTemperature;
 import com.tinkerforge.IPConnection;
 import javafx.application.Application;
 import javafx.application.Platform;
-import javafx.collections.ObservableList;
 import javafx.scene.Scene;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
-import org.rapidpm.commons.javafx.chart.DateAxis;
 
 import java.util.Date;
 
